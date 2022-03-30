@@ -1,6 +1,6 @@
 """
 Filename:
-    excel_zipcode_universal.py
+  excel_zipcode_universal.py
 
 Description:
   Opening and altering an excel file then writing the newly altered excel file to a new copy of the file
@@ -30,8 +30,8 @@ def excel_zipcode():
   for each in df.values.tolist():
     print(each[0])
     print(each[0].split(",")[-2])
-  # Appending the data that we are altering or need into its own new list
-  new_df_list.append(each[0].split(",")[-1])
+    # Appending the data that we are altering or need into its own new list
+    new_df_list.append(each[0].split(",")[-1])
 
   dff = pd.read_excel(full_file_path)
   # inserting the new column
