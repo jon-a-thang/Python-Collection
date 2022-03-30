@@ -37,7 +37,7 @@ from PIL import Image
 import pytesseract
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Users\\johnkim\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Users\\location_here\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 
 
 # Master List 1
@@ -92,7 +92,7 @@ def pdf_to_html(filenames_list, file_path):
     :return:
         None
     """
-    tmp_path = 'python C:\\Users\\johnkim\\Desktop\\Processing\\PDF_Processor\\pdf2txt.py -o '
+    tmp_path = 'python C:\\PDF_Processor\\pdf2txt.py -o '
     for files in filenames_list:
         command = tmp_path + files + '.html -t html ' + file_path + files
         os.system(command)
