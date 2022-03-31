@@ -14,3 +14,10 @@ Excel_Zipcode
 
 PDF_Processor
  - This project will read a PDF file and mine for specific data like dates, numbers, and other required or needed data fields
+
+Selenium
+ - This project
+
+Sending_Emails
+ - This project
+
