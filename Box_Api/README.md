@@ -7,3 +7,6 @@ Requirements:
 
 You can find Box here:
  - https://www.box.com/home
+
+And check out their github page here:
+ - https://github.com/box
