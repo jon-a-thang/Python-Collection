@@ -7,3 +7,4 @@ pdf_processor.py
    - And also use a method that will convert a PDF to HTML 
 
 I do not own *PDF2TXT.py*
+ - It is a built-in library in Python
