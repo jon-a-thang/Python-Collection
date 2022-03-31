@@ -19,5 +19,5 @@ Selenium
  - This project
 
 Sending_Emails
- - This project
+ - A collection of python code that will send emails
 
