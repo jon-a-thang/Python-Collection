@@ -1,5 +1,5 @@
 # Box_Api
-Uses the API from Box.com and will assist with uploading files to an account 
+Uses the API from Box.com and will assist with uploading files and create folders to an account 
 
 Requirements:
  - Will require that the users have an account with Box.com
