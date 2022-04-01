@@ -78,7 +78,7 @@ def upload_to_box_api():
         root_folder = client.folder(folder_id='_ENTER_FOLDER_ID_')
         current_parent_folder = root_folder.create_subfolder(datetime.now().strftime("%Y-%m-%d"))
 
-        parent_folderpath = 'C:\\_PATH_OF_YOUR_FOLDER_TO_UPLOAD_ + '\\'
+        parent_folderpath = 'C:\\_PATH_OF_YOUR_FOLDER_TO_UPLOAD_ ' + '\\'
         
         # Uploading sub-folders that are contained in the parent folder that you are uploading
         for sub_folder_name in [os.path.join(fold_name) for fold_name in os.listdir(parent_folderpath)
